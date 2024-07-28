@@ -714,7 +714,7 @@ input[type] {
 }
 
 .footer-get-started li :hover {
-    background-color: darkgoldenrod;
+    background-color: darkcyan;
     padding: 0px 4px;
     border-radius: 2px;
     color: white;
