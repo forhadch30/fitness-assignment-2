@@ -269,7 +269,7 @@ nav li a {
 }
 
 .run-title h2 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     margin-bottom: 6%;
 }
@@ -687,7 +687,6 @@ input[type] {
     border-radius: 20px;
     color: white;
 }
-
 .fitness-footer {
     width: 40%;
 }
