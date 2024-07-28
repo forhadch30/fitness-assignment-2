@@ -1,0 +1,274 @@
+@media screen and (max-width: 576px) {
+    .fitness-container nav {
+        width: 100%;
+    }
+
+    nav div {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        margin-top: 10px;
+        color: white;
+    }
+
+    /* banner responsive design */
+    .banner-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-container {
+        margin-top: 10px;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-btn-1 {
+        margin-right: 5px;
+    }
+
+    .banner-btn-1 {
+        padding: 8px 15px 8px 15px;
+    }
+
+    .banner-btn-2 {
+        padding: 8px 15px 8px 15px;
+    }
+
+    .banner-container {
+        width: 100%;
+    }
+
+    .right-side img {
+        width: auto;
+    }
+
+    .left-side p {
+        width: 100%;
+    }
+
+    .left-side h2 {
+        font-size: 45px;
+    }
+
+    .circle-container {
+        position: absolute;
+        left: 5%;
+    }
+
+    .circle-container-2 {
+        position: absolute;
+        left: 55%;
+        top: 15%;
+    }
+
+    .circle-1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .right-side {
+        position: relative;
+    }
+
+    /* habits responsive */
+    .habits-content {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .habits-content,
+    .habits-imgs {
+        margin: 0 auto;
+    }
+
+    .habits-container {
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .habits-title h2 {
+        font-size: 30px;
+    }
+
+    .habits-title p {
+        font-size: 12px;
+        color: grey;
+        margin-bottom: 10%;
+    }
+    .habits-content p{
+        color: gray;
+    }
+
+    /* run responsive */
+    .run-content {
+        margin-top: 15%;
+        margin-bottom: 15%;
+        flex-direction: column;
+    }
+
+    .run-title {
+        width: 100%;
+    }
+
+    .run-title button {
+        width: 100%;
+    }
+
+    .run-title h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .rou-imgs img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-title h2 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .card-title p {
+        width: 60%;
+        line-height: 35px;
+    }
+
+    /* card exercise style start here  */
+    .card-content {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    .child-1 {
+        grid-column: 1/span 6;
+        grid-row: 1/span 5;
+        padding-top: 115%;
+        padding-left: 10%;
+        color: white;
+    }
+
+    .child-2 {
+        grid-column: 7/span 6;
+        grid-row: 1/span 5;
+        background-position: -15cap;
+    }
+
+    .child-4 {
+        grid-column: 1/span 5;
+        grid-row: 6/span 5;
+    }
+    .child-5 {
+        grid-column: 6/span 7;
+        grid-row: 6/span 5;
+    }
+
+    .card-content {
+        grid-template-columns: 1 1fr;
+    }
+
+    .child-3 {
+        display: none;
+    }
+
+    .child-6 {
+        display: none;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    /* BMI  responsive  */
+    .bmi-container {
+        padding-left: 0px;
+    }
+
+    .bmi-container h1 {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    /* chart style start here */
+    .chart-calculator-left-side h2 {
+        margin-bottom: 10px;
+    }
+
+    .td,
+    th {
+        padding: 20px;
+    }
+
+    .chart-calculator-container {
+        flex-direction: column;
+    }
+
+    .chart-calculator-right-side,
+    .select-all {
+        width: 100%;
+    }
+
+    .input-height,
+    .input-age {
+        width: 50%;
+    }
+
+    .input-container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .chart-calculator-right-side h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* chart style end here */
+    /* meet out team style start responsive  */
+    .meet-out-team-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .meet-out-team-content {
+        width: 100%;
+    }
+
+    .Cody-Fisher,
+    .Cameron-Williamson,
+    .Darrell-Steward,
+    .Dianne-Russell,
+    .Theresa-Webb {
+        height: 100%;
+    }
+
+    .Jerome-Bell,
+    .Dianne-Russell {
+        display: none;
+    }
+
+    /* footer style responsive */
+    .footer-content,
+    .fitness-footer {
+        width: 100%;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-get-started {
+        margin-top: 20px;
+    }
+    .all-right{
+        margin-top: 10%;
+    }    
+}
