@@ -30,16 +30,16 @@
 
     .banner-btn-1 {
         margin-right: 5px;
-    }
-
-    .banner-btn-1 {
+        width: 100%;
         padding: 8px 15px 8px 15px;
     }
-
     .banner-btn-2 {
         padding: 8px 15px 8px 15px;
+        width: 100%;
     }
-
+    .display-flex{
+        display: flex;
+    }
     .banner-container {
         width: 100%;
     }
@@ -49,11 +49,15 @@
     }
 
     .left-side p {
-        width: 100%;
+        width: 90%;
     }
 
     .left-side h2 {
         font-size: 45px;
+    }
+
+    #club {
+        display: none;
     }
 
     .circle-container {
@@ -240,10 +244,6 @@
 
     .meet-out-team-content {
         width: 100%;
-    }
-
-    .left-side-to-right {
-        
     }
 
     .Cody-Fisher,
